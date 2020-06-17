@@ -5,7 +5,7 @@
 
 # Concurrencia en servidores Http con Sockets Java
 
-El siguiente repositorio contiene varios ejercicios en los cuales se vera una introducción a temas relacionados con manejo de URL's, Sockets por parte de un servidor y un cliente.
+El siguiente repositorio muuestra un servidor con peticiones concurrentes y el manejo de recursos html.
 
 ### Prerrequisitos
 
@@ -374,16 +374,16 @@ Luego en JMeter debe dirigirse a la parte superior izquierda y dar click derecho
    realizar las peticiones .
 -    Y las veces que se realizarán.
 
-![](resources/jm1.PNG)
+![](resources/jm1.png)
 
 
 Luego se añadirá un HttpRequestDefault y un HttpRequest para que reciba las peticiones raíz y algún recurso en especifico.
 
-![](resources/jm3.PNG)
+![](resources/jm3.png)
 
 Ahora procederemos a escoger los diferentes Listeners que ofrece JMeter para analizar la información de manera amigable
 
-![](resources/jm4.PNG)
+![](resources/jm4.png)
 
 Resultados en forma de árbol
 ![](resources/jm5.PNG)
@@ -415,7 +415,7 @@ La siguiente imagen muestra los diagramas de clases que permiten la interacción
 
 ## Authors
 
-* **Eduard Jimenez** - *LOCS/Hora  300/13 = 23.1 LOCS/Hora* - Fecha: 16/06/2020
+* **Eduard Jimenez** - *LOCS/Hora  626/14 = 44.7 LOCS/Hora* - Fecha: 16/06/2020
 
 
 
@@ -423,4 +423,7 @@ La siguiente imagen muestra los diagramas de clases que permiten la interacción
 
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
 
+### Enlace al sistema de integración continua
 
+_A continuación se presenta el link:_
+[![CircleCI](https://circleci.com/gh/EdKillah/ARSW-Taller4.svg?style=svg)](https://circleci.com/gh/EdKillah/ARSW-Taller4)
